@@ -1,0 +1,17 @@
+{
+  "name": "aiskills402",
+  "description": "Free sample skills from aiskills402.com: tested agent skills, each with a public test report.",
+  "owner": {
+    "name": "Georgi Kalchev",
+    "url": "https://aiskills402.com"
+  },
+  "plugins": [
+    {
+      "name": "aiskills402",
+      "source": "./",
+      "description": "Three free tested skills: translate locale files without breaking placeholders, write one Excel or Google Sheets formula, and write an MCP tool schema for an API operation.",
+      "category": "productivity",
+      "tags": ["skills", "i18n", "spreadsheet", "mcp"]
+    }
+  ]
+}

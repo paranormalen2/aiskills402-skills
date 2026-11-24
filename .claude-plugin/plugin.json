@@ -1,0 +1,12 @@
+{
+  "name": "aiskills402",
+  "version": "1.0.0",
+  "description": "Three free tested skills from aiskills402.com: translate-app-text, spreadsheet-formula and mcp-tool-schema.",
+  "author": {
+    "name": "Georgi Kalchev",
+    "url": "https://aiskills402.com"
+  },
+  "homepage": "https://aiskills402.com",
+  "repository": "https://github.com/paranormalen2/aiskills402-skills",
+  "keywords": ["agent-skills", "skills", "translation", "i18n", "excel", "google-sheets", "mcp"]
+}

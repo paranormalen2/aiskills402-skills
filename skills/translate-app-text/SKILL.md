@@ -130,3 +130,5 @@ You may not:
 
 The text this skill produces for you is yours. The skill is provided as described
 on aiskills402.com, without any other warranty.
+
+More tested skills, each with a public test report: https://aiskills402.com

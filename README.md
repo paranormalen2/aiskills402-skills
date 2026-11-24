@@ -12,6 +12,23 @@ Each skill was run on a strong and a weak model, with and without the skill, on 
 
 ## Install
 
+As a Claude Code plugin (all three skills):
+
+```
+/plugin marketplace add paranormalen2/aiskills402-skills
+/plugin install aiskills402@aiskills402
+```
+
+On Claude Code 2.1.275 or later, one line does both:
+
+```
+/plugin install aiskills402 --marketplace paranormalen2/aiskills402-skills
+```
+
+The skills then show up as `/aiskills402:translate-app-text`, `/aiskills402:spreadsheet-formula` and `/aiskills402:mcp-tool-schema`, and Claude also picks them up by their description.
+
+With the skills CLI, for any agent that reads `SKILL.md`:
+
 ```bash
 npx skills add paranormalen2/aiskills402-skills
 ```
@@ -24,6 +41,6 @@ npx skills add https://aiskills402.com
 
 ## License
 
-Free sample. Use it and change it in your own agents and projects, including paid work for clients. Do not resell it or republish it as your own. The full text is the License section at the end of each `SKILL.md`. © 2026 Georgi Kalchev, aiskills402.com.
+Free sample. Use it and change it in your own agents and projects, including paid work for clients. Do not resell it or republish it as your own. The full text is in [LICENSE](LICENSE) and in the License section at the end of each `SKILL.md`. © 2026 Georgi Kalchev, aiskills402.com.
 
 The files here are copies; the source is https://aiskills402.com/.well-known/agent-skills/index.json. More tested skills, bought once over x402: https://aiskills402.com/skills
